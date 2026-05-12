@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <defs>
+        <linearGradient id="numGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#F18D00"/>
+            <stop offset="100%" stop-color="#D47800"/>
+        </linearGradient>
+        <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="100%" stop-color="#E0E8F0"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background: full navy panel -->
+    <image href="../assets/chapter_bg.jpg" x="0" y="0" width="1280" height="720"
+           preserveAspectRatio="none"/>
+
+    <!-- Bottom-left corner branding (orange arc + text mark) -->
+    <image href="../assets/corner_orange_l.png" x="43" y="652" width="53" height="52"/>
+    <image href="../assets/corner_text_l.png"   x="113" y="657" width="62" height="42"/>
+
+    <!-- Centered chapter layout: number → label → separator → title -->
+    <text x="640" y="260" font-family="Arial Black" font-size="96"
+          fill="url(#numGrad)" text-anchor="middle">{{CHAPTER_NUM}}</text>
+    <text x="640" y="315" font-family="Arial Black" font-size="22"
+          fill="#FFFFFF" text-anchor="middle">{{CHAPTER_LABEL}}</text>
+    <rect x="560" y="332" width="160" height="3" fill="#F18D00"/>
+
+    <!-- Chapter title (below separator, centered) -->
+    <text x="640" y="400" font-family="Arial Black" font-size="42"
+          fill="url(#titleGrad)" text-anchor="middle">{{CHAPTER_TITLE}}</text>
+    <text x="640" y="455" font-family="Arial Black" font-size="42"
+          fill="url(#titleGrad)" text-anchor="middle">{{CHAPTER_SUBTITLE}}</text>
+
+    <!-- Bottom-right Guomics 2026 branding -->
+    <text x="1224" y="708" font-family="Arial" font-size="11"
+          fill="#FFFFFF" text-anchor="end">Guomics 2026</text>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <defs>
+        <linearGradient id="thanksGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#F18D00"/>
+            <stop offset="100%" stop-color="#D47800"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background: orange TL arc + navy BR arc + white center -->
+    <image href="../assets/cover_bg.jpg" x="0" y="0" width="1280" height="720"
+           preserveAspectRatio="none"/>
+
+    <!-- Top-right corner logos -->
+    <image href="../assets/westlake_logo_r.png" x="1076" y="16" width="53" height="52"/>
+    <image href="../assets/guomics_emblem_r.png" x="1146" y="21" width="60" height="42"/>
+
+    <!-- Big "Thanks!" centerpiece with gradient -->
+    <text x="640" y="300" font-family="Arial Black" font-size="120"
+          fill="url(#thanksGrad)" text-anchor="middle">Thanks!</text>
+
+    <!-- Decorative orange separator -->
+    <rect x="540" y="335" width="200" height="3" fill="#F18D00"/>
+
+    <!-- Contact info -->
+    <text x="640" y="400" font-family="Arial Black" font-size="24"
+          fill="#212121" text-anchor="middle">{{AUTHOR_NAME}}</text>
+    <text x="640" y="438" font-family="Arial" font-size="17"
+          fill="#666666" text-anchor="middle">{{INSTITUTION_1}}</text>
+    <text x="640" y="466" font-family="Arial" font-size="15"
+          fill="#666666" text-anchor="middle">{{INSTITUTION_2}}</text>
+    <text x="640" y="500" font-family="Arial" font-size="15"
+          fill="#666666" text-anchor="middle">{{CONTACT_EMAIL}}</text>
+
+    <!-- guomics.com domain at bottom-center -->
+    <text x="640" y="640" font-family="Arial" font-size="14"
+          fill="#666666" text-anchor="middle">guomics.com</text>
+
+    <!-- Page number -->
+    <text x="1215" y="705" font-family="Arial" font-size="11" fill="#FFFFFF"
+          text-anchor="end">{{PAGE_NUM}}</text>
+
+    <!-- Bottom-right Guomics 2026 branding -->
+    <text x="1224" y="708" font-family="Arial" font-size="11"
+          fill="#FFFFFF" text-anchor="end">Guomics 2026</text>
+</svg>

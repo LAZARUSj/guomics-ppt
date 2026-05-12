@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <defs>
+        <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#002D5C"/>
+            <stop offset="100%" stop-color="#004791"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background: orange TL arc + navy BR arc + white center -->
+    <image href="../assets/cover_bg.jpg" x="0" y="0" width="1280" height="720"
+           preserveAspectRatio="none"/>
+
+    <!-- Top-right corner logos -->
+    <image href="../assets/westlake_logo_r.png" x="1076" y="16" width="53" height="52"/>
+    <image href="../assets/guomics_emblem_r.png" x="1146" y="21" width="60" height="42"/>
+
+    <!-- Title bar -->
+    <text x="60" y="50" font-family="Arial Black" font-size="26" fill="url(#titleGrad)">{{SLIDE_TITLE}}</text>
+    <rect x="55" y="68" width="1170" height="3" fill="#F18D00"/>
+
+    <!-- 4x2 figure grid with card-style placeholders -->
+    <!-- Row 1 -->
+    <rect x="55"  y="78"  width="275" height="280" rx="6" fill="#F8FAFC" stroke="#E0E4E8" stroke-width="1"/>
+    <rect x="55"  y="78"  width="275" height="4" rx="2" fill="#F18D00" fill-opacity="0.4"/>
+    <text x="192" y="225" font-family="Arial" font-size="13" fill="#999999" text-anchor="middle">{{FIGURE_1}}</text>
+
+    <rect x="345" y="78"  width="275" height="280" rx="6" fill="#F8FAFC" stroke="#E0E4E8" stroke-width="1"/>
+    <rect x="345" y="78"  width="275" height="4" rx="2" fill="#F18D00" fill-opacity="0.4"/>
+    <text x="482" y="225" font-family="Arial" font-size="13" fill="#999999" text-anchor="middle">{{FIGURE_2}}</text>
+
+    <rect x="635" y="78"  width="275" height="280" rx="6" fill="#F8FAFC" stroke="#E0E4E8" stroke-width="1"/>
+    <rect x="635" y="78"  width="275" height="4" rx="2" fill="#F18D00" fill-opacity="0.4"/>
+    <text x="772" y="225" font-family="Arial" font-size="13" fill="#999999" text-anchor="middle">{{FIGURE_3}}</text>
+
+    <rect x="925" y="78"  width="275" height="280" rx="6" fill="#F8FAFC" stroke="#E0E4E8" stroke-width="1"/>
+    <rect x="925" y="78"  width="275" height="4" rx="2" fill="#F18D00" fill-opacity="0.4"/>
+    <text x="1062" y="225" font-family="Arial" font-size="13" fill="#999999" text-anchor="middle">{{FIGURE_4}}</text>
+
+    <!-- Row 2 -->
+    <rect x="55"  y="378" width="275" height="280" rx="6" fill="#F8FAFC" stroke="#E0E4E8" stroke-width="1"/>
+    <rect x="55"  y="378" width="275" height="4" rx="2" fill="#F18D00" fill-opacity="0.4"/>
+    <text x="192" y="525" font-family="Arial" font-size="13" fill="#999999" text-anchor="middle">{{FIGURE_5}}</text>
+
+    <rect x="345" y="378" width="275" height="280" rx="6" fill="#F8FAFC" stroke="#E0E4E8" stroke-width="1"/>
+    <rect x="345" y="378" width="275" height="4" rx="2" fill="#F18D00" fill-opacity="0.4"/>
+    <text x="482" y="525" font-family="Arial" font-size="13" fill="#999999" text-anchor="middle">{{FIGURE_6}}</text>
+
+    <rect x="635" y="378" width="275" height="280" rx="6" fill="#F8FAFC" stroke="#E0E4E8" stroke-width="1"/>
+    <rect x="635" y="378" width="275" height="4" rx="2" fill="#F18D00" fill-opacity="0.4"/>
+    <text x="772" y="525" font-family="Arial" font-size="13" fill="#999999" text-anchor="middle">{{FIGURE_7}}</text>
+
+    <rect x="925" y="378" width="275" height="280" rx="6" fill="#F8FAFC" stroke="#E0E4E8" stroke-width="1"/>
+    <rect x="925" y="378" width="275" height="4" rx="2" fill="#F18D00" fill-opacity="0.4"/>
+    <text x="1062" y="525" font-family="Arial" font-size="13" fill="#999999" text-anchor="middle">{{FIGURE_8}}</text>
+
+    <!-- Page number -->
+    <text x="1215" y="705" font-family="Arial" font-size="11" fill="#666666"
+          text-anchor="end">{{PAGE_NUM}}</text>
+
+    <!-- Bottom-right Guomics 2026 branding -->
+    <text x="1224" y="708" font-family="Arial" font-size="11"
+          fill="#FFFFFF" text-anchor="end">Guomics 2026</text>
+</svg>

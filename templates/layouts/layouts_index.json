@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "total": 21,
+    "defaultViewBox": "0 0 1280 720",
+    "formats": [
+      "ppt169"
+    ],
+    "standardFiles": [
+      "design_spec.md",
+      "01_cover.svg",
+      "02_toc.svg",
+      "02_chapter.svg",
+      "03_content.svg",
+      "07_ending.svg"
+    ],
+    "standardPageTypes": [
+      "cover",
+      "toc",
+      "chapter",
+      "content",
+      "ending"
+    ],
+    "updated": "2026-04-16"
+  },
+  "categories": {
+    "scientific": {
+      "name": "Scientific",
+      "layouts": [
+        "guomics"
+      ]
+    }
+  },
+  "quickLookup": {
+    "guomics": "guomics",
+    "scientific": "guomics",
+    "westlake": "guomics"
+  },
+  "layouts": {
+    "guomics": {
+      "label": "Guomics Lab Template",
+      "summary": "Official Guomics Lab template for proteomics, metabolomics, and systems biology presentations. White background with navy (#004791) and orange (#F18D00) corner accents, Arial Black headings. Follows Nature artwork guidelines for scientific figures.",
+      "tone": "Clean, scientific, professional, accessible",
+      "themeMode": "Light theme (white background + orange top-left corner + navy bottom-right corner)",
+      "assets": [
+        "cover_bg.jpg",
+        "chapter_bg.jpg",
+        "toc_bg.jpg",
+        "westlake_logo_r.png",
+        "guomics_emblem_r.png",
+        "guomics_logo.png",
+        "corner_orange_l.png",
+        "corner_text_l.png"
+      ],
+      "keywords": [
+        "Guomics",
+        "Proteomics",
+        "Westlake University",
+        "Scientific",
+        "Lab meeting",
+        "Conference",
+        "Academic",
+        "Nature figures"
+      ],
+      "slide_types": [
+        "01_cover.svg",
+        "02_toc.svg",
+        "02_chapter.svg",
+        "03_content.svg",
+        "03_text_panel.svg",
+        "04_figure_grid.svg",
+        "05_text_fullblue.svg",
+        "07_ending.svg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <defs>
+        <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="100%" stop-color="#D0D8E8"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background: orange TL arc + full navy panel -->
+    <image href="../assets/chapter_bg.jpg" x="0" y="0" width="1280" height="720"
+           preserveAspectRatio="none"/>
+
+    <!-- Top-right corner logos -->
+    <image href="../assets/westlake_logo_r.png" x="1076" y="16" width="53" height="52"/>
+    <image href="../assets/guomics_emblem_r.png" x="1146" y="21" width="60" height="42"/>
+
+    <!-- Title bar (white on navy) -->
+    <text x="60" y="60" font-family="Arial Black" font-size="28" fill="url(#titleGrad)">{{SLIDE_TITLE}}</text>
+    <rect x="60" y="76" width="1160" height="3" fill="#F18D00"/>
+
+    <!-- Two-column card-style bullets on navy -->
+    <!-- Left column -->
+    <rect x="60" y="105" width="560" height="82" rx="6" fill="#003566" fill-opacity="0.5" stroke="#1A5A8A" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="60" y="105" width="4" height="82" rx="2" fill="#F18D00"/>
+    <circle cx="80" cy="136" r="4" fill="#F18D00"/>
+    <text x="94" y="142" font-family="Arial" font-size="17" fill="#FFFFFF">{{BULLET_1}}</text>
+    <text x="105" y="168" font-family="Arial" font-size="14" fill="#AACCEE">{{BULLET_1_SUB}}</text>
+
+    <rect x="60" y="202" width="560" height="82" rx="6" fill="#003566" fill-opacity="0.5" stroke="#1A5A8A" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="60" y="202" width="4" height="82" rx="2" fill="#F18D00"/>
+    <circle cx="80" cy="233" r="4" fill="#F18D00"/>
+    <text x="94" y="239" font-family="Arial" font-size="17" fill="#FFFFFF">{{BULLET_2}}</text>
+    <text x="105" y="265" font-family="Arial" font-size="14" fill="#AACCEE">{{BULLET_2_SUB}}</text>
+
+    <rect x="60" y="299" width="560" height="82" rx="6" fill="#003566" fill-opacity="0.5" stroke="#1A5A8A" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="60" y="299" width="4" height="82" rx="2" fill="#F18D00"/>
+    <circle cx="80" cy="330" r="4" fill="#F18D00"/>
+    <text x="94" y="336" font-family="Arial" font-size="17" fill="#FFFFFF">{{BULLET_3}}</text>
+    <text x="105" y="362" font-family="Arial" font-size="14" fill="#AACCEE">{{BULLET_3_SUB}}</text>
+
+    <rect x="60" y="396" width="560" height="82" rx="6" fill="#003566" fill-opacity="0.5" stroke="#1A5A8A" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="60" y="396" width="4" height="82" rx="2" fill="#F18D00"/>
+    <circle cx="80" cy="427" r="4" fill="#F18D00"/>
+    <text x="94" y="433" font-family="Arial" font-size="17" fill="#FFFFFF">{{BULLET_4}}</text>
+    <text x="105" y="459" font-family="Arial" font-size="14" fill="#AACCEE">{{BULLET_4_SUB}}</text>
+
+    <!-- Right column -->
+    <rect x="660" y="105" width="560" height="82" rx="6" fill="#003566" fill-opacity="0.5" stroke="#1A5A8A" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="660" y="105" width="4" height="82" rx="2" fill="#F18D00"/>
+    <circle cx="680" cy="136" r="4" fill="#F18D00"/>
+    <text x="694" y="142" font-family="Arial" font-size="17" fill="#FFFFFF">{{BULLET_5}}</text>
+    <text x="705" y="168" font-family="Arial" font-size="14" fill="#AACCEE">{{BULLET_5_SUB}}</text>
+
+    <rect x="660" y="202" width="560" height="82" rx="6" fill="#003566" fill-opacity="0.5" stroke="#1A5A8A" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="660" y="202" width="4" height="82" rx="2" fill="#F18D00"/>
+    <circle cx="680" cy="233" r="4" fill="#F18D00"/>
+    <text x="694" y="239" font-family="Arial" font-size="17" fill="#FFFFFF">{{BULLET_6}}</text>
+    <text x="705" y="265" font-family="Arial" font-size="14" fill="#AACCEE">{{BULLET_6_SUB}}</text>
+
+    <rect x="660" y="299" width="560" height="82" rx="6" fill="#003566" fill-opacity="0.5" stroke="#1A5A8A" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="660" y="299" width="4" height="82" rx="2" fill="#F18D00"/>
+    <circle cx="680" cy="330" r="4" fill="#F18D00"/>
+    <text x="694" y="336" font-family="Arial" font-size="17" fill="#FFFFFF">{{BULLET_7}}</text>
+    <text x="705" y="362" font-family="Arial" font-size="14" fill="#AACCEE">{{BULLET_7_SUB}}</text>
+
+    <rect x="660" y="396" width="560" height="82" rx="6" fill="#003566" fill-opacity="0.5" stroke="#1A5A8A" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="660" y="396" width="4" height="82" rx="2" fill="#F18D00"/>
+    <circle cx="680" cy="427" r="4" fill="#F18D00"/>
+    <text x="694" y="433" font-family="Arial" font-size="17" fill="#FFFFFF">{{BULLET_8}}</text>
+    <text x="705" y="459" font-family="Arial" font-size="14" fill="#AACCEE">{{BULLET_8_SUB}}</text>
+
+    <!-- Page number -->
+    <text x="1215" y="705" font-family="Arial" font-size="11" fill="#FFFFFF"
+          text-anchor="end">{{PAGE_NUM}}</text>
+
+    <!-- Bottom-right Guomics 2026 branding -->
+    <text x="1224" y="708" font-family="Arial" font-size="11"
+          fill="#FFFFFF" text-anchor="end">Guomics 2026</text>
+</svg>

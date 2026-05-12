@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <defs>
+        <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#002D5C"/>
+            <stop offset="100%" stop-color="#004791"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background: orange arc top-left + navy arc bottom-right (pre-composited) -->
+    <image href="../assets/cover_bg.jpg" x="0" y="0" width="1280" height="720"
+           preserveAspectRatio="none"/>
+
+    <!-- Top-left: Guomics logo (inside orange arc area) -->
+    <image href="../assets/guomics_logo.png" x="42" y="22" width="95" height="60"/>
+
+    <!-- Top-right corner logos: Westlake University + Guomics emblem -->
+    <image href="../assets/westlake_logo_r.png" x="1076" y="16" width="53" height="52"/>
+    <image href="../assets/guomics_emblem_r.png" x="1146" y="21" width="60" height="42"/>
+
+    <!-- Title block: orange separator + 2 title lines + orange separator -->
+    <rect x="220" y="248" width="840" height="3" fill="#F18D00"/>
+    <text x="640" y="305" font-family="Arial Black" font-size="48"
+          fill="url(#titleGrad)" text-anchor="middle">{{TITLE}}</text>
+    <text x="640" y="360" font-family="Arial Black" font-size="48"
+          fill="url(#titleGrad)" text-anchor="middle">{{TITLE_LINE2}}</text>
+    <rect x="220" y="380" width="840" height="3" fill="#F18D00"/>
+
+    <!-- Author block -->
+    <text x="640" y="445" font-family="Arial" font-size="22"
+          fill="#212121" text-anchor="middle">{{AUTHOR_NAME}}</text>
+    <text x="640" y="477" font-family="Arial" font-size="16"
+          fill="#666666" text-anchor="middle">{{AFFILIATION_1}}</text>
+    <text x="640" y="507" font-family="Arial" font-size="16"
+          fill="#666666" text-anchor="middle">{{DATE}}</text>
+
+    <!-- Bottom-right Guomics 2026 branding -->
+    <text x="1224" y="708" font-family="Arial" font-size="11"
+          fill="#FFFFFF" text-anchor="end">Guomics 2026</text>
+</svg>
