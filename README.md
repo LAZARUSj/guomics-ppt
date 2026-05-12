@@ -16,7 +16,6 @@ Guomics PPT Skill 是一个面向 Guomics / Westlake 相关科研汇报的 PPT �
 | --- | --- |
 | `SKILL.md` | Codex / Claude skill 入口说明和完整工作流 |
 | `AGENTS.md` | Agent 执行约束和协作规范 |
-| `Guomics ppt_template.pptx` | Guomics PPT 参考模板 |
 | `references/` | 设计规范、执行规范、图像和 SVG 规则 |
 | `scripts/` | 内容转换、SVG 处理、质量检查、PPTX 导出等脚本 |
 | `templates/layouts/` | Guomics 幻灯片版式模板 |
