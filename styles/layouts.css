@@ -1,0 +1,25 @@
+/* Shared Guomics layout baseline. Per-slide geometry lives in layout components. */
+.slidev-layout {
+  padding: 0;
+  background: #ffffff;
+  font-family: Arial, 'Helvetica Neue', sans-serif;
+}
+
+.slidev-layout,
+.slidev-layout * {
+  box-sizing: border-box;
+}
+
+.slidev-layout img {
+  max-width: 100%;
+}
+
+.slidev-layout .text-orange {
+  color: var(--guomics-orange);
+}
+
+/* Slidev keeps the goto palette mounted just above the viewport. In this
+   theme's canvas size the hidden palette list can still peek into screenshots. */
+.fixed.right-5.\-top-20 {
+  display: none !important;
+}

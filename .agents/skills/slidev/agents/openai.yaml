@@ -1,0 +1,4 @@
+interface:
+  display_name: "Guomics Slidev Template"
+  short_description: "Use the Guomics group meeting Slidev template"
+  default_prompt: "Use $slidev to create or revise a Guomics group meeting Slidev deck from this template."

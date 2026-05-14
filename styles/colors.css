@@ -1,0 +1,31 @@
+/* Guomics Color System */
+:root {
+  /* Primary accent - Orange */
+  --guomics-orange: #F18D00;
+  --guomics-orange-light: #FFA733;
+  --guomics-orange-dark: #CC7700;
+
+  /* Secondary accent - Blue */
+  --guomics-blue: #4472C4;
+  --guomics-blue-light: rgba(68, 114, 196, 0.14);
+  --guomics-blue-semi: rgba(68, 114, 196, 0.3);
+
+  /* Navy */
+  --guomics-navy: #004791;
+  --guomics-navy-dark: #003366;
+
+  /* Neutrals */
+  --guomics-black: #000000;
+  --guomics-near-black: #212121;
+  --guomics-white: #FFFFFF;
+
+  /* Semantic colors */
+  --guomics-title-color: var(--guomics-black);
+  --guomics-body-color: var(--guomics-near-black);
+  --guomics-accent-color: var(--guomics-orange);
+  --guomics-highlight-bg: var(--guomics-blue-light);
+  --guomics-link-color: #0563C1;
+
+  /* Slidev theme integration */
+  --slidev-theme-primary: var(--guomics-orange);
+}
