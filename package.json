@@ -1,0 +1,36 @@
+{
+  "name": "slidev-theme-guomics",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "slidev": {
+    "colorSchema": "light",
+    "defaults": {
+      "fonts": {
+        "sans": "Arial",
+        "mono": "Fira Code",
+        "provider": "none"
+      },
+      "aspectRatio": "16/9",
+      "canvasWidth": 980
+    }
+  },
+  "engines": {
+    "slidev": ">=0.48.0"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.0.0",
+    "@slidev/theme-default": "latest"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.40.0"
+  }
+}

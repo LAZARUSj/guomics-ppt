@@ -1,0 +1,66 @@
+/* Guomics Font System */
+.slidev-layout {
+  font-family: 'Arial', 'Helvetica Neue', sans-serif;
+  color: var(--guomics-near-black);
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  font-family: 'Arial Black', 'Arial Bold', 'Arial', sans-serif;
+  font-weight: 900;
+  color: var(--guomics-title-color);
+}
+
+.slidev-layout h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.slidev-layout h2 {
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
+
+.slidev-layout h3 {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.slidev-layout p,
+.slidev-layout li {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--guomics-body-color);
+}
+
+.slidev-layout a {
+  color: var(--guomics-link-color);
+  text-decoration: none;
+}
+
+.slidev-layout a:hover {
+  text-decoration: underline;
+}
+
+.slidev-layout .font-title {
+  font-family: 'Arial Black', 'Arial Bold', 'Arial', sans-serif;
+  font-weight: 900;
+}
+
+.slidev-layout .font-body {
+  font-family: 'Arial', sans-serif;
+}
+
+.slidev-layout .text-accent {
+  color: var(--guomics-orange);
+}
+
+.slidev-layout .text-navy {
+  color: var(--guomics-navy);
+}
+
+.slidev-layout .text-white-on-dark {
+  color: var(--guomics-white);
+}

@@ -2,3 +2,15 @@ __pycache__/
 *.py[cod]
 .DS_Store
 Thumbs.db
+
+# Node / Slidev
+node_modules/
+dist/
+.slidev/
+.vite/
+
+# Logs and local environment
+*.log
+.env
+.env.*
+!.env.example
