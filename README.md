@@ -1,8 +1,22 @@
 # Guomics PPT Skill
 
+**An agent-ready SVG-to-PPTX workflow for editable, quality-checked scientific presentations.**
+
+This repository packages presentation instructions, Guomics visual standards, reusable layouts, chart and icon components, conversion scripts, and quality checks as a Codex/Claude-compatible skill. The workflow keeps text, diagrams, and shapes editable in PowerPoint instead of flattening each slide into an image.
+
 Guomics PPT Skill 是一个面向 Guomics / Westlake 相关科研汇报的 PPT 生成技能包。它围绕 SVG 到 PPTX 的工作流组织脚本、模板、图表组件、图标库和品牌规范，用于生成可编辑的 PowerPoint 幻灯片，而不是把整页内容导出成图片。
 
-## 主要能力
+## Workflow
+
+```mermaid
+flowchart LR
+    A[PDF · Word · Web · Markdown] --> B[Content planning]
+    B --> C[SVG layouts and components]
+    C --> D[Automated quality checks]
+    D --> E[Editable PPTX]
+```
+
+## 主要能力 / Capabilities
 
 - 将 PDF、Word、网页、Markdown 等资料整理为演示文稿输入内容。
 - 基于 Guomics 品牌视觉规范生成 16:9 幻灯片。
@@ -10,7 +24,7 @@ Guomics PPT Skill 是一个面向 Guomics / Westlake 相关科研汇报的 PPT �
 - 将 SVG 页面转换为可编辑的 PPTX 形状和元素。
 - 支持封面、章节页、目录页、内容页、图文页、图表页和结束页等常用科研汇报页面。
 
-## 目录结构
+## 目录结构 / Repository Structure
 
 | Path | Description |
 | --- | --- |
@@ -23,7 +37,7 @@ Guomics PPT Skill 是一个面向 Guomics / Westlake 相关科研汇报的 PPT �
 | `templates/icons/` | 图标 SVG 组件库 |
 | `workflows/` | 独立工作流说明 |
 
-## 基础用法
+## 基础用法 / Quick Start
 
 在支持 Codex / Claude skill 的环境中，将本目录作为 `guomics-ppt` skill 加载。当用户请求创建 Guomics 风格 PPT、科研汇报幻灯片或基于文档生成演示文稿时，按 `SKILL.md` 中定义的串行流程执行。
 
@@ -40,7 +54,15 @@ python scripts/svg_to_pptx.py path/to/project
 
 具体参数和完整说明见 `scripts/README.md`。
 
-## 设计规范
+The intended workflow is:
+
+1. Load this directory as a Codex or Claude skill.
+2. Convert source material into structured content.
+3. Select or extend an SVG layout.
+4. Run the quality checker and finalization scripts.
+5. Export to PPTX and verify that important elements remain editable.
+
+## 设计规范 / Design System
 
 默认使用 Guomics 品牌配色和字体体系：
 
@@ -66,3 +88,7 @@ python scripts/svg_to_pptx.py path/to/project
 - 生成的 PPTX 应保持元素可编辑，优先使用原生 PowerPoint 形状、文本和图片。
 - 不建议提交运行中生成的临时文件、缓存文件或 `__pycache__`。
 - 如果扩展模板或脚本，请同步更新 `SKILL.md`、`scripts/README.md` 或对应索引文件。
+
+## Maintainer
+
+Maintained by [Wenjie Zhang](https://github.com/LAZARUSj) for reproducible scientific communication workflows in the Guomics research environment. Issues and focused improvements are welcome through the repository's issue tracker.
